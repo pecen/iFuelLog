@@ -3,12 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD247C10681A29C2ED86325A /* Pods_FuelLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1BCC28D2EAF8BDEF4AAB2A /* Pods_FuelLog.framework */; };
+		D082B01F237318FB00F7228E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D082B01E237318FB00F7228E /* GoogleService-Info.plist */; };
+		D082B029237398CC00F7228E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D082B028237398CC00F7228E /* WelcomeViewController.swift */; };
+		D082B02B23739C4600F7228E /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D082B02A23739C4600F7228E /* DesignableButton.swift */; };
+		D082B02D2373A81A00F7228E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D082B02C2373A81A00F7228E /* Helpers.swift */; };
 		D0E0F00E2364A7F9000F9E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E0F00D2364A7F9000F9E05 /* AppDelegate.swift */; };
-		D0E0F0102364A7F9000F9E05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E0F00F2364A7F9000F9E05 /* SceneDelegate.swift */; };
 		D0E0F0122364A7F9000F9E05 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E0F0112364A7F9000F9E05 /* FirstViewController.swift */; };
 		D0E0F0142364A7F9000F9E05 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E0F0132364A7F9000F9E05 /* SecondViewController.swift */; };
 		D0E0F0172364A7F9000F9E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E0F0152364A7F9000F9E05 /* Main.storyboard */; };
@@ -17,9 +21,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03D54753365B98252B673F0E /* Pods-FuelLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelLog.release.xcconfig"; path = "Target Support Files/Pods-FuelLog/Pods-FuelLog.release.xcconfig"; sourceTree = "<group>"; };
+		1D1BCC28D2EAF8BDEF4AAB2A /* Pods_FuelLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuelLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E5A5E14F0B8F1E97D530BF /* Pods-FuelLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuelLog.debug.xcconfig"; path = "Target Support Files/Pods-FuelLog/Pods-FuelLog.debug.xcconfig"; sourceTree = "<group>"; };
+		D082B01E237318FB00F7228E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D082B028237398CC00F7228E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		D082B02A23739C4600F7228E /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		D082B02C2373A81A00F7228E /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		D0E0F00A2364A7F9000F9E05 /* FuelLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E0F00D2364A7F9000F9E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0E0F00F2364A7F9000F9E05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D0E0F0112364A7F9000F9E05 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		D0E0F0132364A7F9000F9E05 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D0E0F0162364A7F9000F9E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,17 +43,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD247C10681A29C2ED86325A /* Pods_FuelLog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44C046B1ADC3DD13C8D96409 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85E5A5E14F0B8F1E97D530BF /* Pods-FuelLog.debug.xcconfig */,
+				03D54753365B98252B673F0E /* Pods-FuelLog.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		62B9745FC9985D1C2D7D4A87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D1BCC28D2EAF8BDEF4AAB2A /* Pods_FuelLog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0BA164E2364AD5F00F72532 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0E0F0112364A7F9000F9E05 /* FirstViewController.swift */,
+				D0E0F0132364A7F9000F9E05 /* SecondViewController.swift */,
+				D082B028237398CC00F7228E /* WelcomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		D0E0F0012364A7F9000F9E05 = {
 			isa = PBXGroup;
 			children = (
 				D0E0F00C2364A7F9000F9E05 /* FuelLog */,
 				D0E0F00B2364A7F9000F9E05 /* Products */,
+				44C046B1ADC3DD13C8D96409 /* Pods */,
+				62B9745FC9985D1C2D7D4A87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,13 +99,14 @@
 			isa = PBXGroup;
 			children = (
 				D0E0F00D2364A7F9000F9E05 /* AppDelegate.swift */,
-				D0E0F00F2364A7F9000F9E05 /* SceneDelegate.swift */,
-				D0E0F0112364A7F9000F9E05 /* FirstViewController.swift */,
-				D0E0F0132364A7F9000F9E05 /* SecondViewController.swift */,
+				D082B02A23739C4600F7228E /* DesignableButton.swift */,
+				D0BA164E2364AD5F00F72532 /* Controllers */,
 				D0E0F0152364A7F9000F9E05 /* Main.storyboard */,
 				D0E0F0182364A7FB000F9E05 /* Assets.xcassets */,
 				D0E0F01A2364A7FB000F9E05 /* LaunchScreen.storyboard */,
 				D0E0F01D2364A7FB000F9E05 /* Info.plist */,
+				D082B02C2373A81A00F7228E /* Helpers.swift */,
+				D082B01E237318FB00F7228E /* GoogleService-Info.plist */,
 			);
 			path = FuelLog;
 			sourceTree = "<group>";
@@ -77,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0E0F0202364A7FB000F9E05 /* Build configuration list for PBXNativeTarget "FuelLog" */;
 			buildPhases = (
+				A856D51846FA583BF9F1018E /* [CP] Check Pods Manifest.lock */,
 				D0E0F0062364A7F9000F9E05 /* Sources */,
 				D0E0F0072364A7F9000F9E05 /* Frameworks */,
 				D0E0F0082364A7F9000F9E05 /* Resources */,
+				0975E654F598F469222EB60C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0E0F01C2364A7FB000F9E05 /* LaunchScreen.storyboard in Resources */,
+				D082B01F237318FB00F7228E /* GoogleService-Info.plist in Resources */,
 				D0E0F0192364A7FB000F9E05 /* Assets.xcassets in Resources */,
 				D0E0F0172364A7F9000F9E05 /* Main.storyboard in Resources */,
 			);
@@ -136,15 +180,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0975E654F598F469222EB60C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuelLog/Pods-FuelLog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FuelLog/Pods-FuelLog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FuelLog/Pods-FuelLog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A856D51846FA583BF9F1018E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FuelLog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0E0F0062364A7F9000F9E05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D0E0F0142364A7F9000F9E05 /* SecondViewController.swift in Sources */,
+				D082B02D2373A81A00F7228E /* Helpers.swift in Sources */,
+				D082B029237398CC00F7228E /* WelcomeViewController.swift in Sources */,
+				D082B02B23739C4600F7228E /* DesignableButton.swift in Sources */,
 				D0E0F0122364A7F9000F9E05 /* FirstViewController.swift in Sources */,
 				D0E0F00E2364A7F9000F9E05 /* AppDelegate.swift in Sources */,
-				D0E0F0102364A7F9000F9E05 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +374,13 @@
 		};
 		D0E0F0212364A7FB000F9E05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E5A5E14F0B8F1E97D530BF /* Pods-FuelLog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8LQCVK238Y;
 				INFOPLIST_FILE = FuelLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +394,13 @@
 		};
 		D0E0F0222364A7FB000F9E05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03D54753365B98252B673F0E /* Pods-FuelLog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8LQCVK238Y;
 				INFOPLIST_FILE = FuelLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

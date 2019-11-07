@@ -1,0 +1,21 @@
+.DS_Store
+
+# Exclude project file since it's a workspace now (CocoaPods)
+*.xcodeproj
+
+# Exclude the xcuserdata files
+# xcuserdata/**/*
+# !xcuserdata/**/xcschemes/*
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+
+
+# CocoaPods
+Pods/
+
+## Obj-C/Swift specific
+*.hmap
