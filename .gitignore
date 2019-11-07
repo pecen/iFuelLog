@@ -13,6 +13,7 @@
 !*.xcodeproj/xcshareddata/
 !*.xcworkspace/contents.xcworkspacedata
 
+FuelLog.xcworkspace
 
 # CocoaPods
 Pods/
